@@ -2,7 +2,7 @@ function snapCrackle (maxValue){
     
  let armazenar = '';
 
-for(let i = 0 ;i <= maxValue ; i++){   
+for(let i = 1 ;i <= maxValue ; i++){   
  if(i % 2 === 1 && i % 5 == 0){
 
        
@@ -15,7 +15,7 @@ for(let i = 0 ;i <= maxValue ; i++){
     }
      else if (i % 2 === 1){
 
-        armazenar +=  ', Snap';
+        armazenar +=  ',Snap';
     }
     
     else {
@@ -34,7 +34,7 @@ function snapCracklePrime (maxValue){
 
     let primo = '';
 
-    for(let c = 0 ; c <= maxValue ; c++){
+    for(let c = 1 ; c <= maxValue ; c++){
 
 
 
