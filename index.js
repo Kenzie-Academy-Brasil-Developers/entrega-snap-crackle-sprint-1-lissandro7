@@ -6,20 +6,20 @@ for(let i = 1 ;i <= maxValue ; i++){
  if(i % 2 === 1 && i % 5 == 0){
 
        
-        armazenar += 'SnapCrackle' + ',';
+        armazenar += 'SnapCrackle' + ' , ';
     }
      else if(i % 5 == 0 ){
 
-        armazenar +=  'crackle'+ ',';
+        armazenar +=  'crackle'+ ' , ';
 
     }
      else if (i % 2 === 1){
 
-        armazenar +=  'Snap' + ',';
+        armazenar +=  'Snap' + ' , ';
     }
     
     else {
-        armazenar +=  i + ',';
+        armazenar +=  i + ' , ';
     }
 }
 
