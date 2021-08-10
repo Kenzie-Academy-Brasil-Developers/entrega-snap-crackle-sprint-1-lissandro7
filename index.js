@@ -6,20 +6,20 @@ for(let i = 1 ;i <= maxValue ; i++){
  if(i % 2 === 1 && i % 5 == 0){
 
        
-        armazenar += ',SnapCrackle';
+        armazenar += 'SnapCrackle' + ',';
     }
      else if(i % 5 == 0 ){
 
-        armazenar +=  'crackle';
+        armazenar +=  'crackle'+ ',';
 
     }
      else if (i % 2 === 1){
 
-        armazenar +=  ',Snap';
+        armazenar +=  'Snap' + ',';
     }
     
     else {
-        armazenar +=  ' , ' + i ;
+        armazenar +=  i + ',';
     }
 }
 
@@ -30,43 +30,43 @@ return armazenar ;
 console.log(snapCrackle());
 
 
-function snapCracklePrime (maxValue){
+// function snapCracklePrime (maxValue){
 
-    let primo = '';
+//     let primo = '';
 
-    for(let c = 1 ; c <= maxValue ; c++){
-
-
+//     for(let c = 1 ; c <= maxValue ; c++){
 
 
-         if(c % 2 === 1 && c % 5 === 0 ){
 
-            primo += ' ,SnapCrackle';
 
-        } 
+//          if(c % 2 === 1 && c % 5 === 0 ){
+
+//             primo += 'SnapCrackle';
+
+//         } 
        
         
-        else if (c % 2 === 1){
+//         else if (c % 2 === 1){
 
-            primo += ' ,snap';
-        }
-        else if (c % 5 === 0){
+//             primo += ' ,snap';
+//         }
+//         else if (c % 5 === 0){
 
-            primo += ' ,crackle';
-            }
+//             primo += ' ,crackle';
+//             }
 
-            else if(  ( c / c)  == 1 ){
+//             else if(  ( c / c)  == 1 ){
 
-                primo += 'Prime'
-            }
+//                 primo += 'Prime'
+//             }
 
-            else{
-                primo += ' , ' + c ;
+//             else{
+//                 primo += ' , ' + c ;
 
-            }
+//             }
 
     
         
-    }
-    return primo;
-}
+//     }
+//     return primo;
+// }
